@@ -1,0 +1,41 @@
+body, main, html {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header { background-color: #18400b; line-height: 80px; width:100%;}
+nav {background-color: #053303;}
+article { background-color: #081f05;}
+p{}
+footer { background-color: #18400b; width:100%;}
+header, footer{ color: white; padding-top: 10px; padding-bottom: 10px; font-size: 24px}
+article{color: antiquewhite; padding: 10px; font-size: 18px}
+header, footer { text-align: center; width: 100%}
+h1, p { margin: 0 0 15px 0; }
+a { border-bottom: 1px solid rgba(255,255,255,.3); color: white; line-height: 40px; text-decoration: none; }
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+main nav{
+    display: flex;
+    flex-direction: column;
+    width:20vw;
+}
+nav a{
+    padding: 1em;
+}
+main article{
+    width: 80vw;
+    padding-left: 2em;
+
+    border-bottom: #053303 solid 5px;
+}
+#contenido{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
